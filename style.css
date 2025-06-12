@@ -1,0 +1,92 @@
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body{
+    margin: 0px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 149, 102);
+    padding: 0 10px;
+}
+
+.home, .abouttopic, .multimedia, .about {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    font-size: large; 
+    font-family: 'Banschrift';   
+}
+
+.logo{
+    align-items: flex-start;
+    align-self: center;
+}
+
+.combined{
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    align-self: center;
+}
+
+.home, .abouttopic, .about, .multimedia{
+    border: 2px solid transparent;
+}
+
+.home:hover, .abouttopic:hover, .multimedia:hover, .about:hover{
+    background-color: aquamarine;
+    border-radius: 30px;
+    color: black;
+}
+
+iframe{
+    height: calc(100vh - 115px);
+    width: 100%;
+    border: 0;
+    position: static;
+    flex-grow: 1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(9, 149, 102);
+    padding: 0 10px;
+}
+
+p{
+    font-size: 0.85em;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    align-content: center;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+html, body {
+    height: 100%;
+}
