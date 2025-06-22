@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('justbgimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-size: 2.5em;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    width: 500px;
+    border: 3px solid rgb(32, 170, 163);
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(32, 170, 163);
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.name h1:nth-of-type(1) {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(2, 102, 77);
+    font-size: 10em;
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+}
+
+.name h1:nth-of-type(2) {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 3.5px rgb(2, 102, 77);
+    font-size: 10em;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    top: 0;
+}
+
+.name h3 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(2, 102, 77);
+    font-size: 1em;
+    width: 100%;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.pic {
+    position: absolute;
+    top: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pic img {
+    width: 250px;
+    height: 460px;
+}
+
+.name .contact {
+    width: 500px;
+    position: absolute;
+    bottom: 50px;
+    left: 800px;
+    right: 10px;
+    text-align: center;
+    padding: 6px 12px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(2, 83, 88);
+    border-radius: 20px;
+}  
+
+.name .contact h3 {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
+
+.name .contact a {
+    color: rgb(8, 105, 100);
+    text-decoration: solid;
+    cursor: pointer;
+    border: 2px solid rgb(134, 236, 231);
+    border-radius: 5px;
+    background-color: rgb(134, 236, 231);
+}
+
+.name .contact a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
