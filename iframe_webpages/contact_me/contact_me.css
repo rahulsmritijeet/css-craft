@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('justbgimg.png');
+    background-image: url('assets/justbgimg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
