@@ -118,7 +118,7 @@ header {
     padding: 5px;
 }
 
-.name .contact a {
+.contact a {
     color: rgb(8, 105, 100);
     text-decoration: solid;
     cursor: pointer;
@@ -127,7 +127,7 @@ header {
     background-color: rgb(134, 236, 231);
 }
 
-.name .contact a:hover {
+.contact a:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
