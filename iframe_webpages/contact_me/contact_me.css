@@ -84,7 +84,7 @@ header {
 
 .pic {
     position: absolute;
-    top: 20px;
+    top: 10px;
     z-index: 1;
     display: flex;
     justify-content: center;
