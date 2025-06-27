@@ -96,12 +96,11 @@ header {
     height: 400px;
 }
 
-.name .contact {
+.contact {
     width: 500px;
     position: absolute;
     bottom: 50px;
-    left: 800px;
-    right: 10px;
+    right: 20px;
     text-align: center;
     padding: 6px 12px;
     font-family: 'Raleway', sans-serif;
@@ -109,7 +108,7 @@ header {
     border-radius: 20px;
 }  
 
-.name .contact h3 {
+.contact h3 {
     color: white;
     font-size: 1em;
     font-weight: 600;
