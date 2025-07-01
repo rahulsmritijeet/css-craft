@@ -6,13 +6,13 @@ body {
     color: rgb(148, 238, 204);
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 100;
-    font-size: 2em;
+    font-size: 0.9em;
 }
 
 .heading h3 {
     color: rgb(142, 218, 142);
     font-family: 'Raleway', sans-serif;
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 .heading {
@@ -30,8 +30,8 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.74);
     z-index: 1;
-    height: 150px;
-    width: 300px;
+    height: 100px;
+    width: 150px;
 }
 
 .frameOne iframe {
@@ -98,7 +98,7 @@ body {
 }
 
 .links {
-    height: 100px;
+    height: 110px;
     width: 80%;
     position: absolute;
     bottom: 20px;
