@@ -98,7 +98,7 @@ body {
 }
 
 .links {
-    height: 300px;
+    height: 100px;
     width: 80%;
     position: absolute;
     bottom: 20px;
@@ -119,7 +119,7 @@ body {
     color: rgb(197, 159, 102);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     border: 2px solid rgb(183, 238, 183);
     border-radius: 5px;
     padding: 5px 10px;
@@ -134,6 +134,6 @@ body {
 .links h3 {
     color: rgb(173, 209, 173);
     font-family: 'Raleway', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
 }
